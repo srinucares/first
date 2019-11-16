@@ -15,7 +15,7 @@
 
   <!-- Targets -->
 
-  <target name="resolve" description="Retrieve dependencies with Ivy.">
+  <target name="resolve" description="Retrieve dependencies with Ivy code.">
     <ivy:resolve log="download-only"/>
     <ivy:cachepath conf="build" pathid="build.classpath"/>
     <ivy:cachepath conf="default" pathid="runtime.classpath"/>
